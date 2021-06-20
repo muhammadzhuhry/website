@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Header = ({ width, height }) => {
   const year = new Date().getFullYear();
@@ -47,7 +47,7 @@ const Header = ({ width, height }) => {
         </div>
 
         <div className='col-span-1 order-first md:order-last'>
-          <Image src='/img/perfil.png' alt='profile' width={width} height={height} />
+          <img src='img/perfil.png' alt='profile' width={width} height={height} />
         </div>
       </div>
     </section>
